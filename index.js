@@ -12,7 +12,7 @@
 
 //------image slider-------//
 document.querySelector(".heroContainer")
-slide = ["6857548.webp","6894012.webp","6894373.webp","9353600.webp"]
+slide = ["home5.webp","home4.webp","6894373.webp","6857548.webp"]
 let i = 0;
 let pic = document.querySelector("#pic");
 let nxt = document.querySelector("#nxt").addEventListener("click",()=> {
