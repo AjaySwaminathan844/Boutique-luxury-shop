@@ -1250,25 +1250,28 @@
     }
 
     #a2 h1 {
-        padding: 10px 6px 0px 0px;
+        padding: 10px 6px 0px 10px;
+    }
+    #a2 span{
+        padding:0px 0px 30px 10px;
     }
 
     #s3 {
         display: grid;
         grid-template-columns: 1fr;
-        margin: 20px 0px 0px 40px;
+        margin: 20px 0px 0px 50px;
         gap: 30px;
     }
 
     .boxs {
         width: 300px;
-        height: 150px;
+        height: 70px;
     }
 
     .collection-grid {
         display: grid;
         grid-template-columns: 1fr;
-        height: 1200px;
+        height: 3600px;
         gap:10px;
     }
     .collection-card h3{
@@ -1284,8 +1287,8 @@
         display: grid;
         grid-template-columns: 1fr;
         gap: 10px;
-        margin: 40px 0px 0px 0px;
-        justify-content: center;
+   
+  
     }
     .arrival-card {
         display: flex;
@@ -1305,7 +1308,7 @@
         display: none;
     }
 
-    .aboutContent {
+    .aboutPic {
         display: grid;
         grid-template-columns: 1fr 1fr;
         gap: 10px;
@@ -1320,21 +1323,27 @@
         margin: 20px 0px 0px 0px;
     }
 
-    .sectionApp {
+    .sectionApp img {
         width: 100%;
     }
 
     .apps {
-        display: block;
+        flex-direction: row;
+        gap: 10px;
     }
 
     .preDetail {
         width: 50%;
+        margin:20px 0px 0px 10px;
+    }
+    .sectionFamily button{
+        align-items:center;
     }
 
     #categroy-grid {
         display: grid;
-        grid-template-columns: 1fr 1fr;
+        grid-template-columns: 1fr;
+        gap:10px;
     }
 
     .category-card img {
@@ -1343,31 +1352,38 @@
 
     .review-card {
         justify-content: space-around;
-        padding: 3px 3px 3px 3px;
+        padding: 10px 3px 3px 3px;
     }
 
     .review {
         display: grid;
-        grid-template-columns: 1fr 1fr;
-        justify-content: space-around;
+        grid-template-columns: 1fr;
+        gap:4px;
+      
     }
+    .clickStyle mark{
+        border-radius:2px;
+    }
+    .
 
     #desi card {
         display: grid;
         grid-template-columns: 1fr;
-        justify-content: center;
+        gap:3px;
+      
     }
 
     .sectionContainer-promo{
-        height: 350px;
+        height: 450px;
     }
 
-    footer-container {
-        grid-template-columns: repeat(1, 1fr);
-        text-align: center;
+    section-footer{
+        display:grid;
+        grid-template-columns: 1fr;
+        margin:0px 0px 0px 5px;
     }
 
     .socialMedia a {
-        margin-left: 10px;
+        margin-left: 5px;
     }
 }
