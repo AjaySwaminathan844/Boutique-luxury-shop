@@ -1253,7 +1253,7 @@
         padding: 10px 6px 0px 10px;
     }
     #a2 span{
-        padding:0px 0px 30px 10px;
+        padding:5px 0px 20px 20px;
     }
 
     #s3 {
@@ -1263,6 +1263,9 @@
         gap: 30px;
     }
 
+    #s3{
+        height:90px;
+    }
     .boxs {
         width: 300px;
         height: 70px;
@@ -1271,12 +1274,11 @@
     .collection-grid {
         display: grid;
         grid-template-columns: 1fr;
-        height: 3600px;
-        gap:10px;
+        height: 4500px;
+        gap:5px;
     }
     .collection-card h3{
-        margin:10px 0px 0px 10px;
-
+        margin:0px 0px 0px 90px;
     }
 
     .collection-grid img {
@@ -1284,15 +1286,13 @@
     }
 
     .feature {
-        display: grid;
-        grid-template-columns: 1fr;
+        display: flex;
+        flex-direction: columns;
         gap: 10px;
-   
-  
     }
     .arrival-card {
         display: flex;
-        flex-direction: column;
+        flex-direction: columns;
         gap: 10px;
     }
 
@@ -1300,10 +1300,13 @@
         height: 400px;
     }
 
-    #input label {
-        margin: 10px 0px 0px 5px;
+    #input label { 
+        margin: 50px 0px 0px 5px;
     }
 
+    #input{
+        width:25%;
+    }
     #about1 {
         display: none;
     }
@@ -1313,7 +1316,6 @@
         grid-template-columns: 1fr 1fr;
         gap: 10px;
     }
-
     #about2 {
         flex-direction: row;
         gap: 30px;
@@ -1321,28 +1323,36 @@
 
     #aboutHead2 input {
         margin: 20px 0px 0px 0px;
+        width:25%;
     }
-
+    #aboutHead2 label{
+        margin-bottom:30px;
+    }
     .sectionApp img {
         width: 100%;
     }
-
     .apps {
         flex-direction: row;
         gap: 10px;
     }
-
+    #sectionContent{
+        display:grid;
+        grid-template-columns:1fr 1fr;
+    }
     .preDetail {
-        width: 50%;
-        margin:20px 0px 0px 10px;
+        width: 40%;
+        margin:10px 0px 0px 20px;
     }
     .sectionFamily button{
-        align-items:center;
+     padding-top:2px;
+     margin-right:50px;       
     }
-
+    #categroy-showcase{
+    height:1900px;
+    }
     #categroy-grid {
-        display: grid;
-        grid-template-columns: 1fr;
+        display: flex;
+        flex-direction: columns;
         gap:10px;
     }
 
@@ -1351,33 +1361,29 @@
     }
 
     .review-card {
-        justify-content: space-around;
-        padding: 10px 3px 3px 3px;
+        padding: 50px 3px 3px 3px;
     }
 
     .review {
         display: grid;
-        grid-template-columns: 1fr;
+        grid-template-columns: 1fr 1fr;
         gap:4px;
-      
+        margin-right:20px;
     }
     .clickStyle mark{
-        border-radius:2px;
+        border-radius:5px;
     }
-    .
-
     #desi card {
-        display: grid;
-        grid-template-columns: 1fr;
-        gap:3px;
-      
+        display: flex;
+        flex-direction: columns;
+         margin-right:40px;
     }
 
     .sectionContainer-promo{
-        height: 450px;
+        height: 500px;
     }
 
-    section-footer{
+    .section-footer{
         display:grid;
         grid-template-columns: 1fr;
         margin:0px 0px 0px 5px;
